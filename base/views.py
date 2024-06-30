@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import json
 from .models import Article
-import plotly.express as px
 from django.db import models
 from collections import defaultdict
 
