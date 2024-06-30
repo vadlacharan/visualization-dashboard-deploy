@@ -163,7 +163,7 @@ def data_table_filter(request):
 
 
 #method to store json data in django modal
-"""def save_data(request):
+def save_data(request):
     payloads = json.loads(request.body)
     Article.objects.all().delete()
     for payload in payloads:
@@ -189,4 +189,4 @@ def data_table_filter(request):
         insight.save()
 
     
-    return HttpResponse("data rendered")"""
+    return HttpResponse("data rendered")
